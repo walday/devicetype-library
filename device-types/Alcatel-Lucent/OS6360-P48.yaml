@@ -1,218 +1,220 @@
 ---
-manufacturer: Allied Telesis
-model: x530DP-52GHXm
-slug: allied-telesis-x530dp-52ghxm
-part_number: AT-x530DP-52GHXm
-u_height: 1
+manufacturer: Alcatel-Lucent
+model: OS6360-P48
+slug: alcatel-lucent-os6360-p48
+part_number: 904305-90
+u_height: 1.0
 is_full_depth: false
+airflow: left-to-right
+weight: 4.6
+weight_unit: kg
 console-ports:
   - name: Console
     type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 260
 interfaces:
-  - name: port1.0.1
+  - name: 1/1
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.2
+  - name: 1/2
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.3
+  - name: 1/3
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.4
+  - name: 1/4
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.5
+  - name: 1/5
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.6
+  - name: 1/6
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.7
+  - name: 1/7
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.8
+  - name: 1/8
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.9
+  - name: 1/9
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.10
+  - name: 1/10
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.11
+  - name: 1/11
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.12
+  - name: 1/12
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.13
+  - name: 1/13
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.14
+  - name: 1/14
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.15
+  - name: 1/15
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.16
+  - name: 1/16
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.17
+  - name: 1/17
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.18
+  - name: 1/18
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.19
+  - name: 1/19
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.20
+  - name: 1/20
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.21
+  - name: 1/21
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.22
+  - name: 1/22
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.23
+  - name: 1/23
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.24
+  - name: 1/24
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port1.0.25
+  - name: 1/25
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.26
+    poe_type: type2-ieee802.3at
+  - name: 1/26
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.27
+    poe_type: type2-ieee802.3at
+  - name: 1/27
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.28
+    poe_type: type2-ieee802.3at
+  - name: 1/28
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.29
+    poe_type: type2-ieee802.3at
+  - name: 1/29
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.30
+    poe_type: type2-ieee802.3at
+  - name: 1/30
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.31
+    poe_type: type2-ieee802.3at
+  - name: 1/31
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.32
+    poe_type: type2-ieee802.3at
+  - name: 1/32
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.33
+    poe_type: type2-ieee802.3at
+  - name: 1/33
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.34
+    poe_type: type2-ieee802.3at
+  - name: 1/34
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.35
+    poe_type: type2-ieee802.3at
+  - name: 1/35
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.36
+    poe_type: type2-ieee802.3at
+  - name: 1/36
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.37
+    poe_type: type2-ieee802.3at
+  - name: 1/37
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.38
+    poe_type: type2-ieee802.3at
+  - name: 1/38
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.39
+    poe_type: type2-ieee802.3at
+  - name: 1/39
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.40
+    poe_type: type2-ieee802.3at
+  - name: 1/40
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.41
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/41
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.42
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/42
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.43
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/43
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.44
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/44
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.45
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/45
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.46
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/46
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.47
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/47
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.48
-    type: 5gbase-t
+    poe_type: type2-ieee802.3at
+  - name: 1/48
+    type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
-  - name: port1.0.49
+    poe_type: type2-ieee802.3at
+  - name: 1/49
+    type: 1000base-x-sfp
+    description: Combo-port (default SFP)
+  - name: 1/50
+    type: 1000base-x-sfp
+    description: Combo-port (default SFP)
+  - name: 1/51
     type: 10gbase-x-sfpp
-  - name: port1.0.50
+  - name: 1/52
     type: 10gbase-x-sfpp
-  - name: port1.0.51
-    type: 10gbase-x-sfpp
-  - name: port1.0.52
-    type: 10gbase-x-sfpp
-module-bays:
-  - name: PSU A
-    position: A
-  - name: PSU B
-    position: B
-  - name: Fan A
-    position: A
