@@ -6,6 +6,8 @@ part_number: TL-SG108
 comments: '[TP-Link TL-SG108](https://www.tp-link.com/uk/home-networking/soho-switch/tl-sg108/)'
 is_full_depth: false
 u_height: 0
+weight: 350
+weight_unit: g
 airflow: passive
 power-ports:
   - name: External Power Adapter (9V 0.6A)
